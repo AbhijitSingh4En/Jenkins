@@ -1,4 +1,4 @@
-FROM	centos:7.9.2009
+FROM	centos:latest
 RUN	yum -y install unzip httpd
 ADD	https://www.tooplate.com/download/2121_wave_cafe /var/www/html
 WORKDIR	/var/www/html
